@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../font/Inter-Regular.ttf");
+}
+
+aside {
+    float: right;
+    width: 300px;
+    font-family: "Inter";
+    box-shadow: -1px 1px 10px;
+    padding-bottom: 25px;
+    border-radius: 0px 0px 0px 5px;
+}
+
+header {
+    width: 100%;
+    background-color: #F9822D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.upper-row {
+    display: flex;
+    justify-content: flex-start;
+}
+/*
+div.right-upper-row {
+    display: flex;
+}
+*/
+div.middle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+div.right-middle-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button.tip-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9822D;
+    border-radius: 25px;
+    width: 40px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+div.restaurant-name {
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+div.restaurant-entry {
+    padding: 20px;
+}
+
+div.selected-time {
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+img.loc-icon {
+    width: 12px;
+    height: auto;
+    margin-right: 10px;
+}
+
+img.extlink-icon {
+    width: 12px;
+    height: auto;
+    margin-left: 5px;
+    opacity: 0.5;
+}
+
+div.location {
+    color: #8F8F8F;
+    font-size: 90%;
+}
+
+div.order-items {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+button.edit-order-button {
+    height: auto;
+    color: #8F8F8F;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 75px;
+}
+
+div.bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px
+}
+
+p.pick-up-text {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button.order-button {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+div.order-button-wrapper {
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+div.upper-text {
+    padding: 0px 10px;
+}
+
+div.lower-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+    font-size: 20px;
+    font-style: bold;
+}
